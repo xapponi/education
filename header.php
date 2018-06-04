@@ -21,14 +21,16 @@
 
 <body>
 
-  <div class="blog-header blog-masthead">
-    <img src="<?php echo get_bloginfo('template_url') ?>/images/BtB_Horizontal_Rev.svg"/>
-
-		<nav class="blog-nav">
-			<a class="blog-nav-item active" href="#">Home</a>
-			<?php wp_list_pages( ' &title_li=' ); ?>
-		</nav>
-
-	</div>
+  <nav class="navbar navbar-default">
+		<div class="container-fluid header-container">
+			<div class="navbar-header">
+    		<img src="<?php echo get_bloginfo('template_url') ?>/images/BtB_Horizontal_Rev.svg"/>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a class="active" href="http://www.bittobyte.local">Home</a></li>
+				<?php wp_list_pages( ' &title_li=' ); ?>
+			</ul>
+		</div>
+	</nav>
 
 	<div class="container">
