@@ -21,18 +21,14 @@
 
 <body>
 
-	<div class="blog-masthead">
-		<div class="container">
-			<nav class="blog-nav">
-				<a class="blog-nav-item active" href="#">Home</a>
-				<?php wp_list_pages( ' &title_li=' ); ?>
-			</nav>
-		</div>
+  <div class="blog-header blog-masthead">
+    <img src="<?php echo get_bloginfo('template_url') ?>/images/BtB_Horizontal_Rev.svg"/>
+
+		<nav class="blog-nav">
+			<a class="blog-nav-item active" href="#">Home</a>
+			<?php wp_list_pages( ' &title_li=' ); ?>
+		</nav>
+
 	</div>
 
 	<div class="container">
-
-		<div class="blog-header">
-			<h1 class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>"><!-- site title --></a><?php echo get_bloginfo( 'name' ); ?></h1>
-			<p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
-		</div>
