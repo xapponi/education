@@ -80,9 +80,14 @@ h6, .h6 {
   text-transform: uppercase;
 }
 
-.navbar-nav li a.active {
+.active {
   border-bottom: 5px solid #94D500;
 }
+
+.active a {
+  background-color: #1B75BB !important;
+}
+
 
 /*
  * Main column and sidebar layout

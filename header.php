@@ -27,7 +27,7 @@
     		<img src="<?php echo get_bloginfo('template_url') ?>/images/BtB_Horizontal_Rev.svg"/>
 			</div>
 			<ul class="nav navbar-nav">
-				<li><a class="active" href="http://www.bittobyte.local">Home</a></li>
+				<li class="active"><a href="http://www.bittobyte.local">Home</a></li>
 				<?php wp_list_pages( ' &title_li=' ); ?>
 			</ul>
 		</div>
